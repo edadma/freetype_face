@@ -1,4 +1,4 @@
-package io.github.edadma._sn_template
+package io.github.edadma.freetype_face
 
 import org.scalatest.freespec.AnyFreeSpec
 import org.scalatest.matchers.should.Matchers
