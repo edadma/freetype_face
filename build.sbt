@@ -1,18 +1,12 @@
 name := "freetype_face"
 
-version := "0.0.1"
+version := "0.0.2"
 
 versionScheme := Some("early-semver")
 
-scalaVersion := "3.2.2"
+scalaVersion := "3.5.0"
 
 enablePlugins(ScalaNativePlugin)
-
-nativeLinkStubs := true
-
-nativeMode := "debug"
-
-nativeLinkingOptions := Seq(s"-L${baseDirectory.value}/native-lib")
 
 scalacOptions ++= Seq(
   "-deprecation",
