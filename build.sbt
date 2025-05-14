@@ -4,7 +4,7 @@ version := "0.0.2"
 
 versionScheme := Some("early-semver")
 
-scalaVersion := "3.5.0"
+scalaVersion := "3.7.0"
 
 enablePlugins(ScalaNativePlugin)
 
