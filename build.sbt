@@ -1,4 +1,3 @@
-name                               := "freetype_face"
 ThisBuild / licenses += "ISC"      -> url("https://opensource.org/licenses/ISC")
 ThisBuild / versionScheme          := Some("semver-spec")
 ThisBuild / evictionErrorLevel     := Level.Warn
@@ -44,6 +43,8 @@ ThisBuild / publishTo := {
 ThisBuild / publishMavenStyle := true
 
 enablePlugins(ScalaNativePlugin)
+
+name := "freetype_face"
 
 scalacOptions ++= Seq(
   "-deprecation",
